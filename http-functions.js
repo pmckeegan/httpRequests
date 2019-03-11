@@ -3,7 +3,7 @@ var https = require("https");
   var chunks = "";
   var requestOptions = {
     host: 'sytantris.github.io',
-    path: '/http-examples/step4.html'
+    path: '/http-examples/step5.html'
   };
 
 function getHTML(options, callback) {
@@ -24,7 +24,7 @@ function printHTML (html){
   console.log(html);
 }
 
-module.exports = function getHTML (options, callback){}
+//module.exports = function getHTML (options, callback){}
 
 getHTML();
 
